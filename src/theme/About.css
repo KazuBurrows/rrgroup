@@ -1,0 +1,110 @@
+
+
+
+.about {
+    position: relative;
+    max-width: 1080px;
+    margin: 0 auto;
+    z-index: 500;
+    clear: both;
+    /* overflow: hidden; */
+    clear: both;
+    background-color: #eee;
+}
+
+
+
+
+.button a {
+    position: relative;
+    display: inline-block;
+    padding: .5em 4em;
+    border: 2px solid #000;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s;
+    font-weight: bold;
+    z-index: 600;
+    overflow: hidden;
+}
+
+
+.button a:hover {
+    color: #fff;
+    background-color: #000a15;
+}
+
+
+.about-img {
+    width: 500px;
+    height: 750px;
+    object-fit: cover;
+}
+
+
+
+
+/*@media only screen and (max-width: 1375px) {
+
+}*/
+
+
+@media only screen and (max-width: 1075px) {
+    .about {
+    }
+
+    .about .pr-8 {
+        padding-right: 0px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 824px) {
+    .about h2 {
+        font-size: 4.5rem;
+    }
+    .about .pl-8 {
+        padding-left: 5px;
+    }
+    .about .pr-8 {
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 524px) {
+    .about.columns-2 {
+        columns: 1;
+    }
+
+    section.about :nth-child(2) {
+        padding: 0 15px;
+    }
+
+    .about .pl-8 {
+        padding-left: 0;
+    }
+
+    .about .pr-8 {
+        padding-right: 0;
+    }
+
+    .about h2 {
+        font-size: 4.5rem;
+    }
+
+    .about h3 {
+        font-size: 1.5rem;
+        margin-left: -15px;
+    }
+    .about-img {
+        height: 400px;
+    }
+
+/*    .button a {
+        padding: .1em 2em;
+    }*/
+}
+

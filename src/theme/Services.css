@@ -1,0 +1,203 @@
+.services {
+    position: relative;
+    z-index: 499;
+    /* background-color: #01326d; */
+    overflow: hidden;
+    margin-top: -10%;
+    clear: both;
+    padding: 15% 0 7.5%;
+
+}
+
+
+
+.bg {
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background: -moz-linear-gradient(45deg, rgba(1, 54, 104, 0.7) 50%, rgba(240, 170, 198, 0.7) 75%),url(https://kakimotohouse.co.jp/wp-content/themes/kakimotohouse_2019/img/top_service01.jpg);
+    background: -webkit-linear-gradient(45deg, rgba(1, 54, 104, 0.7) 50%, rgba(240, 170, 198, 0.7) 75%),url(https://kakimotohouse.co.jp/wp-content/themes/kakimotohouse_2019/img/top_service01.jpg);
+    background: linear-gradient(45deg, rgba(1, 54, 104, 0.7) 50%, rgba(240, 170, 198, 0.7) 75%),url(https://kakimotohouse.co.jp/wp-content/themes/kakimotohouse_2019/img/top_service01.jpg);
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    margin-top: -12.3%;
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    transform: translateY(-80px); */
+
+    position: absolute;
+    top: 14%;
+    width: 100%;
+    /* height: 1000px; */
+    padding-bottom: 45%;
+    background: -moz-linear-gradient(45deg, rgba(1, 54, 104, 0.7) 50%, rgba(240, 170, 198, 0.7) 75%), url(https://kakimotohouse.co.jp/wp-content/themes/kakimotohouse_2019/img/top_service01.jpg);
+    background: -webkit-linear-gradient(45deg, rgba(1, 54, 104, 0.7) 50%, rgba(240, 170, 198, 0.7) 75%), url(https://kakimotohouse.co.jp/wp-content/themes/kakimotohouse_2019/img/top_service01.jpg);
+    background-repeat: repeat, repeat;
+    background-attachment: scroll, scroll;
+    background-size: auto, auto;
+    background: linear-gradient(45deg, rgba(1, 54, 104, 0.7) 50%, rgba(240, 170, 198, 0.7) 75%), url(https://kakimotohouse.co.jp/wp-content/themes/kakimotohouse_2019/img/top_service01.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+
+    transform: translateX(-5rem);
+}
+
+.bg::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #eee;
+    -webkit-transform: skewY(0deg);
+    transform: skewY(0deg);
+    z-index: 1;
+}
+
+.bg::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 0%;
+    height: 0px;
+    padding-bottom: 100%;
+    background-color: #01326d;
+    /* transform: translateX(50%); */
+    /* -webkit-transform: skewY(-45deg);
+    transform: skewY(-90deg); */
+    z-index: -1;
+    bottom: -75%;
+}
+
+.my-service {
+    margin: 1.5rem auto;
+}
+
+.inside-my-service {
+    /* padding-left: 4.5rem; */
+}
+
+.services .accounting {
+    height: 400px;
+    /* width: 76%; */
+}
+
+.services img {
+    height: 400px;
+/*    width: 40%;*/
+    object-fit: cover;
+}
+
+
+
+
+
+@media only screen and (max-width: 1300px) {
+
+    .services .accounting {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .accounting .inside-my-service {
+
+    }
+}
+
+@media only screen and (max-width: 1075px) {
+    
+
+    .accounting .inside-my-service {
+        padding: 15px 25px;
+    }
+
+    .accounting h2 {
+        font-size: 3.5rem;
+    }
+
+    .accounting .pt-8 {
+        padding-top: 1rem;
+    }
+
+    .accounting p {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4; /* start showing ellipsis when 3rd line is reached */
+        white-space: pre-wrap; /* let the text wrap preserving spaces */
+    }
+
+    .accounting .service-tags {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1; /* start showing ellipsis when 3rd line is reached */
+        white-space: pre-wrap; /* let the text wrap preserving spaces */
+    }
+}
+
+
+@media only screen and (max-width: 824px) {
+    .accounting .button {
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .services h2:nth-child(1) {
+        font-size: 4.5rem;
+    }
+
+    .services .service-sub-title {
+        font-size: 1.5rem;
+    }
+    
+
+
+    .services .accounting {
+        display: inline-table;
+    }
+
+    .services img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .accounting {
+        margin: 0;
+    }
+
+    .services .myServicesList .inside-my-service {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .services .myServicesList :nth-child(2).accounting {
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
+    }
+
+    .services .myServicesList :nth-child(2).accounting div {
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
+
+    }
+}
+
+
+
+/*.services .myServicesList :nth-child(2).accounting {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+.services .myServicesList :nth-child(2) div {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(1);
+}*/

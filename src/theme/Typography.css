@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sawarabi+Gothic&display=swap');
+
+.oswald-font {
+    /* font-size: 8vw; */
+    font-weight: 700;
+    letter-spacing: 2.5vw;
+    font-family: 'Oswald', sans-serif;
+}
+.sawarabi-font {
+    font-family: "Sawarabi Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    /* letter-spacing: 1vw; */
+}
+
+.roboto-font {
+    font-family: "Roboto Mono", monospace;
+    font-style: normal;
+}
+
+
+/* .text-lg {
+    font-size: 13px;
+    letter-spacing: 0.2em;
+}
+
+.text-1xl {
+    font-size: 2.5vw;
+    line-height: 4.5vw;
+    letter-spacing: 1vw;
+    
+}
+
+.text-2xl {
+    font-size: 8vw;
+    line-height: 1em;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+} */

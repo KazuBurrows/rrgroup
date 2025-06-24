@@ -1,0 +1,53 @@
+.contact {
+
+}
+
+
+.contact span {
+    background-color: #01326d;
+    padding: .05rem 2rem;
+  }
+
+
+
+
+
+@media only screen and (max-width: 1300px) {
+    .contact .w-1\/3 {
+        width: 40%;
+    }
+
+    .contact .w-5\/12 {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 1075px) {
+    .contact .w-1\/3 {
+        width: 60%;
+    }
+
+    .contact .w-5\/12 {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 824px) {
+    .contact h2 {
+        font-size: 4.5rem;
+    }
+
+    .contact .w-1\/3 {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 524px) {
+    .contact .w-1\/3 {
+        width: 85%;
+    }
+}
+
