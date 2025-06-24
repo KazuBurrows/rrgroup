@@ -185,7 +185,7 @@ export default function Contact() {
         </div>
                       </div>
                       <p className="button roboto-font pt-8 text-blue-dark float-right">
-                          <a onClick={handleSubmit} type="submit">Submit</a>
+                          <button onClick={handleSubmit} type="submit">Submit</button>
                       </p>
                   </div>
         </section>
