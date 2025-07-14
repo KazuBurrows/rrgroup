@@ -28,8 +28,8 @@
     transform: translateY(-80px); */
 
     position: absolute;
-    top: 14%;
-    width: 100%;
+    top: 0;
+    width: 150%;
     /* height: 1000px; */
     padding-bottom: 45%;
     background: -moz-linear-gradient(45deg, rgba(1, 54, 104, 0.7) 50%, rgba(240, 170, 198, 0.7) 75%), url(https://kakimotohouse.co.jp/wp-content/themes/kakimotohouse_2019/img/top_service01.jpg);
@@ -41,10 +41,10 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    z-index: 1;
+    z-index: -1;
     overflow: hidden;
 
-    transform: translateX(-5rem);
+    /* transform: translateX(-5rem); */
 }
 
 .bg::before {

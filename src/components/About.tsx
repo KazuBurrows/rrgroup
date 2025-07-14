@@ -2,7 +2,7 @@
 export default function About() {
   return (
     <>
-      <div className="container">
+      <div className="">
         <section className="about columns-2" id="about">
           <div className="relative pr-8">
             <img className="about-img" alt="working" src="https://img.freepik.com/free-photo/man-woman-working-laptop-together_23-2147707820.jpg?t=st=1732917512~exp=1732921112~hmac=3c40c8b6ea97569489a951f46c5c737f2de75a71640b3046eed1e34a1bc67d2a&w=1380"/>

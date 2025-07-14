@@ -1,9 +1,10 @@
 export default function Services() {
   return (
     <>
-      <div className="container bg-blue">
-        <div className="bg"></div>
+      <div className="bg-blue">
+        
         <section className="services relative" id="services">
+          <div className="bg"></div>
           <h2 className="oswald-font text-white-light text-3xl leading-none uppercase text-center">
             Services
           </h2>

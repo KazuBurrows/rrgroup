@@ -80,7 +80,7 @@ export default function Contact() {
          
           {showNotification && <Notification message={"Message was successfully sent!"}></Notification>}
 
-      <div className="container bg-white">
+      <div className=" bg-white">
         <section className="contact" id="contact">
           <h2 className="oswald-font text-blue-dark text-3xl leading-none uppercase text-center">
             Contact
@@ -184,11 +184,16 @@ export default function Contact() {
           </div>
         </div>
                       </div>
-                      <p className="button roboto-font pt-8 text-blue-dark float-right">
+                      <p className="button roboto-font text-[#01326d] font-bold float-right border-4 border-[#01326d] px-6 py-2 my-2 ">
                           <button onClick={handleSubmit} type="submit">Submit</button>
                       </p>
                   </div>
+                  
         </section>
+                          <br/>
+                  <br/>
+                  <br/>
+
       </div>
     </>
   );

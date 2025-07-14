@@ -3,13 +3,14 @@
 
 .about {
     position: relative;
-    max-width: 1080px;
+    max-width: 1380px;
     margin: 0 auto;
     z-index: 500;
     clear: both;
     /* overflow: hidden; */
     clear: both;
     background-color: #eee;
+    margin-top: 400px;
 }
 
 

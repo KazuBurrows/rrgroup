@@ -1,15 +1,19 @@
 
 .navbar ul {
+    display: flex;
     float: left;
-    width: 55%;
     position: fixed;
-    top: 25px;
     z-index: 999;
+    background-color: black;
+top: 25px;
+    width: auto;
+            margin-left: 20px;
+    padding: 5px 10px;
 }
 
 .navbar li {
     display: inline-block;
-    font-size: 13px;
+    font-size: 24px;
     font-weight: bold;
     margin-right: 5%;
     font-family: 'Oswald', sans-serif;
@@ -26,4 +30,44 @@
 
 .navbar a:hover {
     color: #007bff;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1300px) {
+    .navbar ul {
+            top: 25px;
+    width: auto;
+            margin-left: 20px;
+    padding: 5px 10px;
+    }
+
+    .navbar li {
+    font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 1075px) {
+
+}
+
+
+@media only screen and (max-width: 824px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+    .navbar ul {
+            top: 0px;
+    width: 100%;
+            margin-left: 0px;
+    padding: 5px 10px;
+    }
+
+    .navbar li {
+    font-size: 18px;
+    }
 }
